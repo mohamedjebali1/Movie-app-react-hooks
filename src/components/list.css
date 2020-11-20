@@ -1,0 +1,74 @@
+.list{
+    display: grid;
+    background-color:rgb(97, 40, 18);
+    height: 100%;
+    padding-top: 0px;
+}
+
+.card-view {
+    background:#ad7d14;
+    width: 100%;
+    max-width: 315px;
+    margin: 20px;
+    border-radius: 10px;
+    display: inline-block;
+  }
+  
+  .card-header {
+    padding: 0;
+    margin: 0;
+    height: 367px;
+    width: 100%;
+    display: block;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+  }
+  .card-view:hover {
+    box-shadow: 0px 15px 30px rgba(214, 25, 25, 0.877);
+  }
+  
+  
+  .card-movie-content-head,
+  .card-movie-info {
+    display: table;
+    width: 100%;
+  }
+  
+  .card-movie-title {
+    font-size: 22px;
+    margin: 0;
+    display: table-cell;
+  }
+  
+  .ratings {
+    width: 50px;
+    height: 15px;
+    background-size: contain;
+    display: table-cell;
+    text-align: right;
+    position: relative;
+    margin-top: 5px;
+    font-weight: 600;
+    color:white;
+  }
+  
+  
+  .card-movie-info {
+    display: flex;
+    margin: 5px;
+    justify-content:space-around  }
+  
+  .movie-running-time {
+    display: table-cell;
+    text-transform: uppercase;
+    text-align: center;
+  }
+  
+  .movie-running-time:first-of-type {
+    text-align: left;
+  }
+  button {
+      color: black;
+      background-color: #ad7d14;
+      scroll-padding: 10px;
+  }
